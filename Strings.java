@@ -1,5 +1,4 @@
 
-
 public class Strings
 {
     public static void main(String[] args) {
@@ -12,21 +11,25 @@ public class Strings
         System.out.println(string2);
         System.out.println(string3);
         String[] strArray = {"Alpha", "Bravo", "Charlie", "Delta", "Echo"};
-        
-    for (int i = 0; i < strArray.length; i++)
-    {
-        strArray[i] = strArray[i];
-        System.out.println(strArray[i]);
-    }
-    for (String value : strArray)
-    {
-        System.out.print(value);
-    }
-    for (int i = 0; i < strArray.length; i++)
-    {
-        strArray[i] = (strArray[i]);
-        System.out.print(strArray[i]);
-        System.out.print("-");
-    }
+
+        for (int i = 0; i < strArray.length; i++)
+        {
+            strArray[i] = strArray[i];
+            System.out.println(strArray[i]);
+        }
+        for (String value : strArray)
+        {
+            System.out.print(value);
+        }
+        for (int i = 0; i < strArray.length; i++)
+        {
+            System.out.print("     ");
+        }
+        for (int i = 0; i < strArray.length; i++)
+        {
+            strArray[i] = (strArray[i]);
+            System.out.print(strArray[i]);
+            System.out.print("-");
+        }
     }
 }
