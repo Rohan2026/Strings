@@ -23,13 +23,15 @@ public class Strings
         }
         for (int i = 0; i < strArray.length; i++)
         {
-            System.out.print("     ");
+            System.out.println(" ");
         }
         for (int i = 0; i < strArray.length; i++)
         {
             strArray[i] = (strArray[i]);
             System.out.print(strArray[i]);
-            System.out.print("-");
+            if (i < strArray.length - 1) {
+                System.out.print("-");
+            }
         }
     }
 }
