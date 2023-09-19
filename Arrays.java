@@ -1,5 +1,5 @@
 
-public class Strings
+public class Arrays
 {
     public static void main(String[] args) {
         System.out.println("Hello World!");
@@ -27,7 +27,6 @@ public class Strings
         }
         for (int i = 0; i < strArray.length; i++)
         {
-            strArray[i] = (strArray[i]);
             System.out.print(strArray[i]);
             if (i < strArray.length - 1) {
                 System.out.print("-");
